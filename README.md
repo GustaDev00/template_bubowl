@@ -6,7 +6,7 @@ Para facilitar a criação, foi moldado um template com Gulp para facilitar o de
 
 para começar vamos instalar todas as dependencias do projeto
 
-npm i
+> npm i
 
 ### Passo 2
 
@@ -14,7 +14,7 @@ Dentro do arquivo gulpfile.js você vai trocar as informações da url do client
 
 ### Ambiente de desenvolvimento
 
-npm run dev
+> npm run dev
 
 HTML - Para criar uma página HTML, basta acessar "src > template > pages", só criar uma página seguindo o padrão.
 Para facilitar a criação de arquivos HTML, vamos utilizar o pacote do gulp que vai unificar os arquivos. segue a doc de como usar: 
@@ -28,7 +28,7 @@ exportar as funções e chamar no arquivo da raiz da pasta
 
 ### Passo 3 
 
-npm run build
+> npm run build
 
 Comando para buildar os arquivos já passando todas as urls para a url final do site e conseguirmos subir tudo redondo. Assim a gente não precisa trocar em todas as urls.
 
